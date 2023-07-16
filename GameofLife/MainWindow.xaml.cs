@@ -26,7 +26,6 @@ namespace GameofLife
         List<Button> Cell = new List<Button>();
         DispatcherTimer Tick = new DispatcherTimer();
         bool p = true;
-        int siz = 30;
         int gridsize;
         int rows;
         int columns;

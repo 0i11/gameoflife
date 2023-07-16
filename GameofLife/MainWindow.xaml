@@ -27,19 +27,7 @@
         </Viewbox>
         <Viewbox VerticalAlignment="Top" Stretch="Uniform">
             <UniformGrid  Width="900" Height="800" x:Name="g_" Rows="50" Columns="50" VerticalAlignment="Top">
-
             </UniformGrid>
         </Viewbox>
-        <!--
-        <Viewbox Stretch="Uniform" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="240,0,0,0">
-            <Button HorizontalAlignment="Left" Width="100" Height="100" Margin="0,648,0,0" Background="#FFC5C5C5" Click="Button_Click_3" ></Button>
-
-        </Viewbox>
-        <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="591,0,0,0">
-            <Button HorizontalAlignment="Left" Width="100" Height="100" Margin="0,648,0,0" Background="#FFC5C5C5" Click="Button_Click_4" ></Button>
-
-        </Viewbox>
--->
     </Grid>
-
 </Window>
