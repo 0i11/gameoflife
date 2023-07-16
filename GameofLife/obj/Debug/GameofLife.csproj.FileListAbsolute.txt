@@ -1,0 +1,16 @@
+D:\desktop\GameofLife\GameofLife\bin\Debug\GameofLife.exe.config
+D:\desktop\GameofLife\GameofLife\bin\Debug\GameofLife.exe
+D:\desktop\GameofLife\GameofLife\bin\Debug\GameofLife.pdb
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.csproj.AssemblyReference.cache
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.csproj.SuggestedBindingRedirects.cache
+D:\desktop\GameofLife\GameofLife\obj\Debug\MainWindow.g.cs
+D:\desktop\GameofLife\GameofLife\obj\Debug\App.g.cs
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife_MarkupCompile.cache
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife_MarkupCompile.lref
+D:\desktop\GameofLife\GameofLife\obj\Debug\MainWindow.baml
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.g.resources
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.Properties.Resources.resources
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.csproj.GenerateResource.cache
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.csproj.CoreCompileInputs.cache
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.exe
+D:\desktop\GameofLife\GameofLife\obj\Debug\GameofLife.pdb

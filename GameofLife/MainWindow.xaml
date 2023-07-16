@@ -1,0 +1,45 @@
+﻿<Window x:Class="GameofLife.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameofLife"
+        mc:Ignorable="d"
+        Background="#292929"
+        ResizeMode="CanMinimize"
+        Title="MainWindow" Height="860" Width="816">
+
+    <Grid>
+        <Viewbox Margin="-110,0,0,0" HorizontalAlignment="Center" Stretch="Uniform">
+            <Button x:Name="Play" Content="▶" HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" Height="100" Background="#FFC5C5C5" Margin="0,648,0,0" Click="Button_Click_1" FontSize="90" FontFamily="Vladimir Script" FontWeight="Normal" FontStyle="Normal" Foreground="#FF404040"/>
+        </Viewbox>
+        <Viewbox HorizontalAlignment="Center" Stretch="Uniform" Margin="110,0,0,0">
+            <Button  Content="↺" HorizontalAlignment="Left" Width="100" Height="100" Margin="0,648,0,0" Background="#FFC5C5C5" Click="Button_Click_2" Foreground="#FF404040" FontSize="100" FontFamily="Monotype Corsiva" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" FontStyle="Normal" FontStretch="Normal">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+        </Viewbox>
+        <Viewbox VerticalAlignment="Top" Stretch="Uniform">
+            <UniformGrid  Width="900" Height="800" x:Name="g_" Rows="50" Columns="50" VerticalAlignment="Top">
+
+            </UniformGrid>
+        </Viewbox>
+        <!--
+        <Viewbox Stretch="Uniform" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="240,0,0,0">
+            <Button HorizontalAlignment="Left" Width="100" Height="100" Margin="0,648,0,0" Background="#FFC5C5C5" Click="Button_Click_3" ></Button>
+
+        </Viewbox>
+        <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="591,0,0,0">
+            <Button HorizontalAlignment="Left" Width="100" Height="100" Margin="0,648,0,0" Background="#FFC5C5C5" Click="Button_Click_4" ></Button>
+
+        </Viewbox>
+-->
+    </Grid>
+
+</Window>
